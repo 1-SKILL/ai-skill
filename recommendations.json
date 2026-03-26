@@ -1,0 +1,244 @@
+{
+  "_meta": {
+    "version": "1.0.0",
+    "updated": "2026-03-24",
+    "source": "https://github.com/1-SKILL/ai-skill",
+    "portal_url": "https://skills.sh",
+    "portal_url_cn": "",
+    "announcement": ""
+  },
+  "featured": [
+    {
+      "name": "pptx",
+      "name_cn": "PPT 制作",
+      "repo": "anthropics/skills",
+      "installs": 43000,
+      "description_cn": "创建、编辑、读取 PowerPoint 演示文稿",
+      "install_cmd": "npx skills add anthropics/skills@pptx -g -y",
+      "category": "document",
+      "priority": 100,
+      "triggers": ["PPT", "幻灯片", "演示文稿", "pptx", "slides", "deck", "presentation"],
+      "use_cases": ["做PPT", "做幻灯片", "改演示文稿", "读取PPT内容"]
+    },
+    {
+      "name": "docx",
+      "name_cn": "Word 文档",
+      "repo": "anthropics/skills",
+      "installs": 37100,
+      "description_cn": "创建、编辑、读取 Word 文档",
+      "install_cmd": "npx skills add anthropics/skills@docx -g -y",
+      "category": "document",
+      "priority": 99,
+      "triggers": ["Word", "文档", "docx", "word doc", "报告", "memo", "信函"],
+      "use_cases": ["写Word", "写报告", "做文档", "改Word"]
+    },
+    {
+      "name": "xlsx",
+      "name_cn": "Excel 处理",
+      "repo": "anthropics/skills",
+      "installs": 34000,
+      "description_cn": "创建、编辑、分析 Excel 电子表格",
+      "install_cmd": "npx skills add anthropics/skills@xlsx -g -y",
+      "category": "document",
+      "priority": 98,
+      "triggers": ["Excel", "表格", "xlsx", "csv", "spreadsheet", "电子表格", "数据表"],
+      "use_cases": ["处理Excel", "做表格", "分析数据", "处理csv"]
+    },
+    {
+      "name": "pdf",
+      "name_cn": "PDF 处理",
+      "repo": "anthropics/skills",
+      "installs": 47200,
+      "description_cn": "读取、创建、合并、拆分 PDF 文件",
+      "install_cmd": "npx skills add anthropics/skills@pdf -g -y",
+      "category": "document",
+      "priority": 97,
+      "triggers": ["PDF", "pdf文件", "合并PDF", "拆分PDF", "读PDF"],
+      "use_cases": ["处理PDF", "合并PDF", "提取PDF文字", "生成PDF"]
+    },
+    {
+      "name": "frontend-design",
+      "name_cn": "前端设计",
+      "repo": "anthropics/skills",
+      "installs": 189100,
+      "description_cn": "创建高质量、有设计感的前端界面",
+      "install_cmd": "npx skills add anthropics/skills@frontend-design -g -y",
+      "category": "design",
+      "priority": 96,
+      "triggers": ["前端", "网页设计", "UI", "做网站", "landing page", "落地页", "React", "HTML"],
+      "use_cases": ["做网站", "做前端", "美化UI", "做落地页"]
+    },
+    {
+      "name": "seo-audit",
+      "name_cn": "SEO 审计",
+      "repo": "coreyhaines31/marketingskills",
+      "installs": 51585,
+      "description_cn": "网站 SEO 完整审计：技术审计 + 页面审计",
+      "install_cmd": "npx skills add coreyhaines31/marketingskills@seo-audit -g -y",
+      "category": "marketing",
+      "priority": 90,
+      "triggers": ["SEO", "排名", "搜索优化", "Google排名", "百度排名", "流量下降"],
+      "use_cases": ["SEO审计", "提升排名", "优化搜索", "分析SEO问题"]
+    },
+    {
+      "name": "copywriting",
+      "name_cn": "文案写作",
+      "repo": "coreyhaines31/marketingskills",
+      "installs": 44158,
+      "description_cn": "为首页、落地页等撰写或优化营销文案",
+      "install_cmd": "npx skills add coreyhaines31/marketingskills@copywriting -g -y",
+      "category": "marketing",
+      "priority": 89,
+      "triggers": ["文案", "写文案", "营销文案", "改文案", "copywriting", "标题", "CTA"],
+      "use_cases": ["写营销文案", "优化标题", "改落地页文案"]
+    },
+    {
+      "name": "agent-browser",
+      "name_cn": "浏览器自动化",
+      "repo": "vercel-labs/agent-browser",
+      "installs": 122900,
+      "description_cn": "让 AI 能浏览网页、填表、截图、提取数据",
+      "install_cmd": "npx skills add vercel-labs/agent-browser -g -y",
+      "category": "automation",
+      "priority": 95,
+      "triggers": ["浏览器", "爬取", "网页", "截图", "填表", "自动化", "browser"],
+      "use_cases": ["爬取网页", "自动填表", "网页截图", "提取网页数据"]
+    },
+    {
+      "name": "baoyu-post-to-wechat",
+      "name_cn": "微信公众号发布",
+      "repo": "jimliu/baoyu-skills",
+      "installs": 13969,
+      "description_cn": "通过 API 或 Chrome 发布文章到微信公众号",
+      "install_cmd": "npx skills add jimliu/baoyu-skills@baoyu-post-to-wechat -g -y",
+      "category": "chinese-content",
+      "priority": 85,
+      "triggers": ["微信", "公众号", "发公众号", "微信文章", "wechat"],
+      "use_cases": ["发公众号文章", "微信排版", "公众号发布"]
+    },
+    {
+      "name": "baoyu-xhs-images",
+      "name_cn": "小红书图片生成",
+      "repo": "jimliu/baoyu-skills",
+      "installs": 12325,
+      "description_cn": "生成小红书风格的信息图系列",
+      "install_cmd": "npx skills add jimliu/baoyu-skills@baoyu-xhs-images -g -y",
+      "category": "chinese-content",
+      "priority": 84,
+      "triggers": ["小红书", "xhs", "xiaohongshu", "种草", "小红书图片"],
+      "use_cases": ["做小红书图片", "小红书配图", "种草图"]
+    },
+    {
+      "name": "baoyu-translate",
+      "name_cn": "三模式翻译",
+      "repo": "jimliu/baoyu-skills",
+      "installs": 11000,
+      "description_cn": "快速/标准/精细三种翻译模式，支持术语表",
+      "install_cmd": "npx skills add jimliu/baoyu-skills@baoyu-translate -g -y",
+      "category": "chinese-content",
+      "priority": 83,
+      "triggers": ["翻译", "translate", "中译英", "英译中"],
+      "use_cases": ["翻译文章", "中英互译", "术语翻译"]
+    },
+    {
+      "name": "humanizer-zh",
+      "name_cn": "中文去 AI 味",
+      "repo": "op7418/humanizer-zh",
+      "installs": 9688,
+      "description_cn": "检测并消除中文文本中的 AI 写作痕迹",
+      "install_cmd": "npx skills add op7418/humanizer-zh -g -y",
+      "category": "chinese-content",
+      "priority": 82,
+      "triggers": ["去AI味", "AI痕迹", "改写", "人性化", "humanize", "去机器味"],
+      "use_cases": ["消除AI痕迹", "让文章更自然", "去机器味"]
+    },
+    {
+      "name": "brainstorming",
+      "name_cn": "头脑风暴",
+      "repo": "obra/superpowers",
+      "installs": 68800,
+      "description_cn": "在动手写代码前先进行充分的需求分析和设计",
+      "install_cmd": "npx skills add obra/superpowers@brainstorming -g -y",
+      "category": "developer",
+      "priority": 88,
+      "triggers": ["头脑风暴", "想清楚再做", "需求分析", "设计方案", "brainstorm"],
+      "use_cases": ["需求分析", "方案设计", "头脑风暴"]
+    },
+    {
+      "name": "remotion-best-practices",
+      "name_cn": "视频制作",
+      "repo": "remotion-dev/skills",
+      "installs": 167500,
+      "description_cn": "在 React 中用代码制作视频",
+      "install_cmd": "npx skills add remotion-dev/skills@remotion -g -y",
+      "category": "video",
+      "priority": 87,
+      "triggers": ["视频", "视频制作", "Remotion", "动画", "video"],
+      "use_cases": ["用代码做视频", "React视频", "程序化视频"]
+    },
+    {
+      "name": "obsidian-cli",
+      "name_cn": "Obsidian 笔记管理",
+      "repo": "kepano/obsidian-skills",
+      "installs": 423,
+      "description_cn": "通过命令行与 Obsidian 笔记库交互",
+      "install_cmd": "npx skills add kepano/obsidian-skills@obsidian-cli -g -y",
+      "category": "knowledge",
+      "priority": 80,
+      "triggers": ["Obsidian", "笔记", "知识库", "知识管理", "PKM"],
+      "use_cases": ["管理Obsidian笔记", "搜索笔记", "创建笔记"]
+    },
+    {
+      "name": "second-me",
+      "name_cn": "Second Me · AI 分身网络",
+      "repo": "second.me/skill.md",
+      "installs": 0,
+      "description_cn": "让你的 AI Agent 连接到全球分身网络，发现其他人的 Agent，实现 Agent-to-Agent 协作",
+      "install_cmd": "",
+      "url": "https://second.me/skill.md",
+      "category": "agent-network",
+      "priority": 75,
+      "triggers": ["分身", "AI分身", "AI社交", "Agent网络", "A2A", "agent-to-agent", "发现朋友", "分身网络", "Agent协作", "连接Agent"],
+      "use_cases": ["让我的AI连接其他人", "Agent社交网络", "分身互联", "找到其他Agent"]
+    }
+  ],
+  "collections": [
+    {
+      "name": "中文内容创作者必备",
+      "name_en": "chinese-content-creator",
+      "skills": ["baoyu-post-to-wechat", "baoyu-xhs-images", "baoyu-image-gen", "baoyu-translate", "humanizer-zh", "baoyu-infographic"],
+      "install_cmd": "npx skills add jimliu/baoyu-skills --all -g"
+    },
+    {
+      "name": "营销增长全家桶",
+      "name_en": "marketing-growth",
+      "skills": ["seo-audit", "copywriting", "content-strategy", "analytics-tracking", "page-cro", "email-sequence"],
+      "install_cmd": "npx skills add coreyhaines31/marketingskills --all -g"
+    },
+    {
+      "name": "办公文档四件套",
+      "name_en": "office-docs",
+      "skills": ["pdf", "pptx", "docx", "xlsx"],
+      "install_cmd": "npx skills add anthropics/skills@pdf anthropics/skills@pptx anthropics/skills@docx anthropics/skills@xlsx -g -y"
+    },
+    {
+      "name": "开发者效率包",
+      "name_en": "developer-productivity",
+      "skills": ["brainstorming", "systematic-debugging", "writing-plans", "test-driven-development"],
+      "install_cmd": "npx skills add obra/superpowers --all -g"
+    }
+  ],
+  "categories": [
+    {"id": "document", "name_cn": "文档处理", "icon": "📄"},
+    {"id": "marketing", "name_cn": "营销增长", "icon": "📈"},
+    {"id": "design", "name_cn": "设计美化", "icon": "🎨"},
+    {"id": "developer", "name_cn": "开发工具", "icon": "🔧"},
+    {"id": "automation", "name_cn": "自动化", "icon": "🤖"},
+    {"id": "chinese-content", "name_cn": "中文内容", "icon": "🇨🇳"},
+    {"id": "video", "name_cn": "视频制作", "icon": "🎬"},
+    {"id": "knowledge", "name_cn": "知识管理", "icon": "📚"},
+    {"id": "payment", "name_cn": "支付金融", "icon": "💳"},
+    {"id": "data", "name_cn": "数据分析", "icon": "📊"},
+    {"id": "agent-network", "name_cn": "Agent 网络", "icon": "🌐"}
+  ]
+}
