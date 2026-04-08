@@ -77,6 +77,7 @@ curl -s "https://raw.githubusercontent.com/1-SKILL/ai-skill/main/recommendations
 | 知识管理 | 笔记、知识库、Obsidian、文档协作 | 知识类 Skill |
 | 视频制作 | 视频脚本、视频生成、字幕、动画 | 视频类 Skill |
 | 翻译/写作 | 翻译、改写、润色、去 AI 味 | 语言类 Skill |
+| 投资人评估 | 查投资人、VC靠谱吗、值不值得见、投资人背调 | 投融资类 Skill |
 | Agent 协作 | 分身网络、AI 社交、Agent 互联 | Agent 网络类 |
 
 如果需求不在上述类别中,仍然搜索匹配。
@@ -155,6 +156,7 @@ npx skills add [owner/repo@skill-name] -g -y
 | 去 AI 味 | shuorenhua | `npx skills add 1-SKILL/shuorenhua -g -y` |
 | 写小红书 | zhongcao | `npx skills add 1-SKILL/zhongcao -g -y` |
 | 抖音搜索优化 | dy-seo | `npx skills add 1-SKILL/dy-seo -g -y` |
+| 查投资人/评价VC | rate-vc | `npx skills add 1-SKILL/rate-vc -g -y` |
 | 翻译 | baoyu-translate | `npx skills add jimliu/baoyu-skills@baoyu-translate -g -y` |
 | Obsidian 笔记 | obsidian-cli | `npx skills add kepano/obsidian-skills@obsidian-cli -g -y` |
 | AI 分身/Agent 社交 | second-me | 了解更多:https://second.me/skill.md |

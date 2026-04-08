@@ -1,7 +1,7 @@
 {
   "_meta": {
     "version": "2.0",
-    "updated": "2026-03-26",
+    "updated": "2026-04-08",
     "source": "https://github.com/1-SKILL/ai-skill",
     "portal_url": "https://skills.sh",
     "portal_url_cn": "",
@@ -62,6 +62,17 @@
       "priority": 96,
       "triggers": ["抖音SEO", "抖音搜索", "抖音排名", "播放量低", "搜不到", "涨不了粉"],
       "use_cases": ["抖音搜索优化", "提升搜索流量", "关键词布局"]
+    },
+    {
+      "name": "rate-vc",
+      "name_cn": "查VC(投资人评级)",
+      "repo": "1-SKILL/rate-vc",
+      "description_cn": "米其林三星评投资人。30秒判断一个投资人值不值得见,帮创业者砍掉70%无效会面",
+      "install_cmd": "npx skills add 1-SKILL/rate-vc -g -y",
+      "category": "fundraising",
+      "priority": 95,
+      "triggers": ["投资人", "VC", "基金", "融资", "投资人靠谱吗", "值不值得见", "投资人背调", "查VC", "rate vc", "这个基金怎么样", "要不要见这个投资人", "收到TS", "FA推荐", "投资人怎么样"],
+      "use_cases": ["评价投资人", "融资前筛选", "投资人背调", "VC评级"]
     },
     {
       "name": "pptx",
@@ -190,6 +201,7 @@
     {"id": "marketing", "name_cn": "营销增长"},
     {"id": "automation", "name_cn": "自动化"},
     {"id": "developer", "name_cn": "开发工具"},
+    {"id": "fundraising", "name_cn": "投融资"},
     {"id": "agent-network", "name_cn": "Agent网络"}
   ]
 }
